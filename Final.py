@@ -1,8 +1,5 @@
 from __future__ import print_function
 
-from urllib.parse import urlparse, urlencode
-from urllib.request import urlopen, Request
-from urllib.error import HTTPError
 import re
 
 import json
@@ -15,8 +12,6 @@ from flask import make_response
 from textblob import TextBlob
 
 import requests
-import pandas as pd
-from pprint import pprint
 
 from requests.auth import HTTPBasicAuth
 
